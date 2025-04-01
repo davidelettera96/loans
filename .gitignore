@@ -1,0 +1,29 @@
+# Ignore Conda environment (if inside the project folder)
+env/
+.conda/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore unnecessary system files
+.DS_Store
+Thumbs.db
+
+# Ignore cache and compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore large dataset files (if applicable)
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.db
+*.sqlite3
+*.parquet
+
+# Ignore logs
+logs/
+*.log
